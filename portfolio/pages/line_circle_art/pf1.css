@@ -1,0 +1,31 @@
+html, body {
+  margin: 0;
+  padding: 20px;
+}
+canvas{
+  visibility:visible;
+  align-self:flex-start;
+  border: 1px solid red;
+  vertical-align:middle;
+  padding-right: 40px;
+}
+#holder{
+  display:flex;
+  align-items: flex-start;
+  border:1px solid black;
+  justify-content:space-between;
+}
+#container1{
+  flex:1;
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  border:1px solid blue;
+}
+#container2{
+  flex:1;
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  border:1px solid green;
+}
